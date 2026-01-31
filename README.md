@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Compute the [arithmetic mean][arithmetic-mean] of a one-dimensional double-precision floating-point ndarray using a one-pass trial mean algorithm with pairwise summation.
+> Compute the [arithmetic mean][arithmetic-mean] of a one-dimensional single-precision floating-point ndarray using a one-pass trial mean algorithm with pairwise summation.
 
 <section class="intro">
 
@@ -193,7 +193,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -206,8 +206,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-ndarray-smeanlipw.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-ndarray-smeanlipw
 
-[test-image]: https://github.com/stdlib-js/stats-base-ndarray-smeanlipw/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/stats-base-ndarray-smeanlipw/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/stats-base-ndarray-smeanlipw/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/stats-base-ndarray-smeanlipw/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-ndarray-smeanlipw/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-ndarray-smeanlipw?branch=main
@@ -219,8 +219,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
