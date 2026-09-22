@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-25)
+## Unreleased (2026-09-22)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`aef88f4`](https://github.com/stdlib-js/stdlib/commit/aef88f46f65a647745f12986f660031976b51e96) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`22cf269`](https://github.com/stdlib-js/stdlib/commit/22cf2697ba4b9843f5c25fc94dd50cb230558764) - **feat:** add C implementation for `stats/base/ndarray/smeanlipw` [(#14605)](https://github.com/stdlib-js/stdlib/pull/14605) _(by Ujjwal Verma)_
 -   [`5f56aa5`](https://github.com/stdlib-js/stdlib/commit/5f56aa58c2050ea8301fd1534a43e8660d147425) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
 -   [`9a51841`](https://github.com/stdlib-js/stdlib/commit/9a51841213eb13adbd6b8fe36d96c00aac9fbb17) - **bench:** refactor to use string interpolation in `stats/base` [(#11393)](https://github.com/stdlib-js/stdlib/pull/11393) _(by Karan Anand)_
