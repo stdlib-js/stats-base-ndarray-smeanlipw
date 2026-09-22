@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,42 +16,35 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { float32ndarray } from '@stdlib/types/ndarray';
 
 /**
-* Compute the arithmetic mean of a one-dimensional single-precision floating-point ndarray using a one-pass trial mean algorithm with pairwise summation.
+* Computes the arithmetic mean of a one-dimensional single-precision floating-point ndarray using a one-pass trial mean algorithm with pairwise summation.
 *
-* @module @stdlib/stats-base-ndarray-smeanlipw
+* ## Notes
+*
+* -   The function expects the following ndarrays:
+*
+*     -   a one-dimensional input ndarray.
+*
+* @param arrays - array-like object containing ndarrays
+* @returns arithmetic mean
 *
 * @example
 * var Float32Vector = require( '@stdlib/ndarray-vector-float32' );
-* var smeanlipw = require( '@stdlib/stats-base-ndarray-smeanlipw' );
 *
 * var x = new Float32Vector( [ 1.0, 3.0, 4.0, 2.0 ] );
 *
 * var v = smeanlipw( [ x ] );
 * // returns 2.5
 */
-
-// MODULES //
-
-var join = require( 'path' ).join;
-var tryRequire = require( '@stdlib/utils-try-require' );
-var isError = require( '@stdlib/assert-is-error' );
-var main = require( './main.js' );
-
-
-// MAIN //
-
-var smeanlipw;
-var tmp = tryRequire( join( __dirname, './native.js' ) );
-if ( isError( tmp ) ) {
-	smeanlipw = main;
-} else {
-	smeanlipw = tmp;
-}
+declare function smeanlipw( arrays: [ float32ndarray ] ): number;
 
 
 // EXPORTS //
 
-module.exports = smeanlipw;
+export = smeanlipw;
